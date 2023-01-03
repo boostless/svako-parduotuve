@@ -4,8 +4,11 @@ import FooterBar from './components/FooterBar.vue';
 </script>
 
 <template>
-  <div class="w-screen h-screen flex flex-col bg-red-300">
+  <div class="w-screen h-screen flex flex-col bg-white overflow-y-scroll">
     <NavBar />
+    <router-view v-slot="{ Component }">
+      <component :is="Component" />
+    </router-view>
     <FooterBar />
   </div>
 </template>
