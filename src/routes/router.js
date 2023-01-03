@@ -8,12 +8,12 @@ const routes = [
     {
         path: '/',
         name: 'Index',
-        component: Index
+        component: Index,
     },
     {
         path: '/zaisliukai',
-        name: 'Zaisliukai',
-        component: Zaisliukai
+        name: 'Žaisliukai',
+        component: Zaisliukai,
     },
     {
         path: '/apie_mus',
