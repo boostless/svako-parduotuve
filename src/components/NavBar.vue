@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <nav class="flex w-full h-48 bg-pink-200">
+    <nav class="flex w-full h-48 bg-pink-200 shadow-md">
         <div class="h-full w-2/4 mx-auto pt-8 pb-4 flex flex-col justify-between">
             <div>
                 <h1 class="text-3xl font-bold">Pliušinukai</h1>
