@@ -18,6 +18,14 @@ export default {
                 'Kontaktai': {
                     route: '/kontaktai',
                     name: 'Kontaktai'
+                },
+                'Dydziai': {
+                    route: '/informacija/dydziai',
+                    name: 'Dydziai'
+                },
+                'Kainorastis': {
+                    route: '/informacija/kainorastis',
+                    name: 'Kainorastis'
                 }
             }
         }
