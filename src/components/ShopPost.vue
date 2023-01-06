@@ -10,7 +10,7 @@ export default {
             <h2 class="text-center">{{ title }}</h2>
         </header>
         <div>
-            <img :src="image" />
+            <img class="w-full h-auto bg-gray-500" :src="image" />
         </div>
     </article>
 </template>
