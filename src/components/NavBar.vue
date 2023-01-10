@@ -31,7 +31,7 @@ export default {
         </div>    
         <nav>
             <ul class="flex w-full space-x-6">
-                <li @click="$router.push(item.route)" v-for="(item, label) in list" :class="{'text-purple-600': $route.name == label}" class="hover:text-purple-600 cursor-pointer font-semibold text-gray-500">{{label}}</li>
+                <li @click="$router.push(item.route)" v-for="(item, label) in list" :class="{'text-purple-600': $route.name == label, 'text-gray-500': $route.name != label}" class="hover:text-purple-600 cursor-pointer font-semibold">{{label}}</li>
             </ul>
         </nav>
     </header>
