@@ -15,7 +15,7 @@ export default {
                 'Kontaktai': {
                     route: '/kontaktai',
                 },
-                'Kainorastis': {
+                'Kainos': {
                     route: '/informacija/kainorastis',
                 }
             }

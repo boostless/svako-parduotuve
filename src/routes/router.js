@@ -32,7 +32,7 @@ const routes = [
         children: [
             {
                 path: '/informacija/kainorastis',
-                name: 'Kainorastis',
+                name: 'Kainos',
                 component: Kainorastis
             }
         ]

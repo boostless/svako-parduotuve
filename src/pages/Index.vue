@@ -4,6 +4,6 @@ import PageHeader from '../components/PageHeader.vue';
 
 <template>
     <div class="w-full min-h-fit px-32">
-        <PageHeader title="Naujienos" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
+        <PageHeader route="false" title="Naujienos" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
     </div>
 </template>
