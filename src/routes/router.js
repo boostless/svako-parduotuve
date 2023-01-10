@@ -4,12 +4,11 @@ import Apie_mus from '../pages/Apie_mus.vue'
 import Kontaktai from '../pages/Kontaktai.vue'
 import Zaisliukai from '../pages/Zaisliukai.vue'
 import Kainorastis from '../pages/informacija/Kainorastis.vue'
-import Dydziai from '../pages/informacija/Dydziai.vue'
 
 const routes = [
     {
         path: '/',
-        name: 'Index',
+        name: 'Naujienos',
         component: Index,
     },
     {
@@ -35,11 +34,6 @@ const routes = [
                 path: '/informacija/kainorastis',
                 name: 'Kainorastis',
                 component: Kainorastis
-            },
-            {
-                path: '/informacija/dydziai',
-                name: 'Dydziai',
-                component: Dydziai
             }
         ]
     }

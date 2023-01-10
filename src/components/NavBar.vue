@@ -4,28 +4,19 @@ export default {
         return {
             list: {
                 'Naujienos': {
-                    route: '/',
-                    name: 'Index'
+                    route: '/'
                 },
                 'Žaisliukai': {
                     route: '/zaisliukai',
-                    name: 'Zaisliukai'
                 },
                 'Apie mus': {
                     route: '/apie_mus',
-                    name: 'Apie_mus'
                 },
                 'Kontaktai': {
                     route: '/kontaktai',
-                    name: 'Kontaktai'
-                },
-                'Dydziai': {
-                    route: '/informacija/dydziai',
-                    name: 'Dydziai'
                 },
                 'Kainorastis': {
                     route: '/informacija/kainorastis',
-                    name: 'Kainorastis'
                 }
             }
         }
@@ -40,7 +31,7 @@ export default {
         </div>    
         <nav>
             <ul class="flex w-full space-x-6">
-                <li @click="$router.push(item.route)" v-for="(item, label) in list" :class="{'text-purple-600': $route.name == item.name}" class="hover:text-purple-600 cursor-pointer font-semibold text-gray-500">{{label}}</li>
+                <li @click="$router.push(item.route)" v-for="(item, label) in list" :class="{'text-purple-600': $route.name == label}" class="hover:text-purple-600 cursor-pointer font-semibold text-gray-500">{{label}}</li>
             </ul>
         </nav>
     </header>
