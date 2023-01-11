@@ -33,7 +33,7 @@ import PageHeader from '../components/PageHeader.vue';
                     <input id="privacy" required="true" class="h-5 w-5 rounded-lg" type="checkbox">
                     <label for="privacy" class="text-gray-500 font-medium">Sutinkus su <a class="underline cursor-pointer">privatumo politika</a>. <span class="text-red-500">*</span></label>
                 </div>
-                <button type="submit" class="w-full text-center py-3 rounded-lg bg-purple-600 text-white font-semibold">Siųsti žinutę</button>
+                <button type="submit" class="w-full text-center py-3 rounded-lg bg-purple-500 text-white font-semibold">Siųsti žinutę</button>
             </form> 
         </section>   
     </div>
