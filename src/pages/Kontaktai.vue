@@ -5,8 +5,8 @@ import PageHeader from '../components/PageHeader.vue';
 <template>
     <div class="w-full min-h-fit px-32 pb-24">
         <PageHeader title="Susisiekite su mumis" subtitle="Norėtume išgirsti jūsų nuomonę. Užpildykite šią formą." />
-        <section class="w-full flex justify-center">
-            <form class="min-h-fit w-2/6 px-6 space-y-6" name="contact" method="POST" data-netlify="true">
+        <section class="w-full flex items-center justify-center">
+            <form class="min-h-fit w-[35%] px-6 space-y-6" name="contact" method="POST" data-netlify="true">
                 <div class="w-full flex justify-between">
                     <div class="flex flex-col space-y-2">
                         <label for="name" class="text-sm font-medium">Vardas <span class="text-red-500">*</span></label>

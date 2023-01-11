@@ -9,6 +9,7 @@ import FooterBar from './components/FooterBar.vue';
     <router-view v-slot="{ Component }">
       <component :is="Component" />
     </router-view>
+    <FooterBar />
   </div>
 </template>
 
