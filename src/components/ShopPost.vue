@@ -12,7 +12,7 @@ const props = defineProps({
 
 <template>
     <article class="flex flex-col items-center bg-gray-50 w-[280px] pb-6 space-y-3">
-        <img class="w-full h-auto" src="../assets/images/fox.jpg" />
+        <img class="w-full h-auto" src="https://cdn.discordapp.com/attachments/1018802602542120962/1062670762537926776/IMG_0294-min.JPG" />
         <header class="w-full space-y-1 px-6">
             <h2 class="text-lg font-semibold">{{ title }}</h2>
             <span class="block text-purple-600">{{ price }} €</span>
