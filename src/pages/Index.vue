@@ -8,7 +8,7 @@ import PageHeader from '../components/PageHeader.vue';
         <main>
             <article class="flex flex-auto space-x-10">
                 <div>
-                    <img class="w-full h-auto" src="../assets/images/office.png" />
+                    <img class="w-full h-auto" src="/images/office.png" />
                 </div>
                 <div class="w-1/3 space-y-4">
                     <div>
