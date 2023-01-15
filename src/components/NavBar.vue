@@ -40,7 +40,7 @@ export default {
                 <li @click="$router.push(item.route)" v-for="(item, label) in list" :class="{'text-purple-450': $route.name == label, 'text-slate-550': $route.name != label}" class="hover:text-purple-450 cursor-pointer font-semibold">{{label}}</li>
             </ul>
         </nav>
-        <button @click="burgerMenu = true" class="grid sm:hidden"><font-awesome-icon icon="fa-solid fa-list" class="text-xl"/></button>
+        <button @click="burgerMenu=true" class="grid sm:hidden"><font-awesome-icon icon="fa-solid fa-list" class="text-xl"/></button>
     </header>
     <Transition name="slide-down">
         <div v-if="burgerMenu" class="absolute z-10 w-2/3 h-full bg-gray-50 top-0 right-0 rounded-l-2xl flex flex-col items-center justify-center shadow-xl">
