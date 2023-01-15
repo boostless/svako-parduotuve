@@ -18,7 +18,7 @@ const props = defineProps({
 
 <template>
     <article class="flex flex-col items-center bg-gray-50 w-[280px] pb-6 space-y-3 shadow">
-        <img class="w-full h-auto" :src="`src/assets/images/${imagePath}`" :alt="imageAlt" />
+        <img class="w-full h-auto" :src="`/images/${imagePath}`" :alt="imageAlt" />
         <header class="w-full space-y-1 px-6">
             <h2 class="text-lg font-semibold">{{ title }}</h2>
             <span class="block text-purple-450">{{ price }} €</span>
