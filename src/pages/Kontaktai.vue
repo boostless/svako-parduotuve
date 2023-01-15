@@ -6,7 +6,7 @@ import PageHeader from '../components/PageHeader.vue';
     <div class="w-full min-h-screen px-8 sm:px-16 md:px-32 pb-24 bg-purple-50">
         <PageHeader title="Susisiekite su mumis" subtitle="Norėtume išgirsti jūsų nuomonę. Užpildykite šią formą." />
         <main class="w-full flex items-center justify-center">
-            <form class="w-full flex flex-col md:w-4/5 lg:w-2/5 h-fit space-y-8" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form class="w-full flex flex-col md:w-4/5 lg:w-2/5 h-fit space-y-8" name="contact" method="POST" data-netlify="true">
                 <div class="w-full flex flex-col sm:flex-row justify-between space-y-8 sm:space-y-0 sm:space-x-8">
                     <div class="grid space-y-2 w-full">
                         <label class="font-medium text-sm" for="name">Vardas <span class="text-red-500">*</span></label>
