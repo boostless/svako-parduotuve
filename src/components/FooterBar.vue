@@ -8,7 +8,7 @@
             <div class="space-x-3 flex">
                 <div class="bg-white p-2 border rounded-lg flex items-center space-x-2">
                     <font-awesome-icon style="color: #667085" class="text-lg" icon="fa-regular fa-envelope" />
-                    <input type="email" class=" text-black text-sm focus:outline-none" placeholder="Įveskite savo el. paštą..." />
+                    <input type="email" class=" text-black text-sm focus:outline-none" placeholder="Įveskite savo el. paštą..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="vardenis@pastas.lt"/>
                 </div>
                 <button class="py-2 px-4 bg-purple-450 rounded-lg font-semibold hover:bg-white hover:text-purple-450">Prenumeruoti</button>
             </div>
