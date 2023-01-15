@@ -24,7 +24,7 @@ export default {
                     icon: 'fa-solid fa-tags'
                 }
             },
-            burgerMenu: true,
+            burgerMenu: false,
         }
     }
 }
