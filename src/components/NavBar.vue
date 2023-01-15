@@ -32,7 +32,7 @@ export default {
         </div>    
         <nav class="hidden sm:grid">
             <ul class="flex flex-row w-full space-x-3 md:space-x-6">
-                <li @click="$router.push(item.route)" v-for="(item, label) in list" :class="{'text-purple-450': $route.name == label, 'text-gray-500': $route.name != label}" class="hover:text-purple-450 cursor-pointer font-semibold">{{label}}</li>
+                <li @click="$router.push(item.route)" v-for="(item, label) in list" :class="{'text-purple-450': $route.name == label, 'text-slate-550': $route.name != label}" class="hover:text-purple-450 cursor-pointer font-semibold">{{label}}</li>
             </ul>
         </nav>
         <button @click="burgerMenu = true" class="grid sm:hidden">Menu</button>
@@ -41,7 +41,7 @@ export default {
         <div v-if="burgerMenu" class="absolute z-10 w-2/3 h-full bg-gray-50 top-0 right-0 rounded-l-2xl flex flex-col items-center justify-center shadow-xl">
             <nav>
                 <ul class="flex flex-col text-xl space-y-2">
-                    <li @click="$router.push(item.route); burgerMenu = false" v-for="(item, label) in list" :class="{'text-purple-450': $route.name == label, 'text-gray-500': $route.name != label}" class="hover:text-purple-450 cursor-pointer font-semibold">{{label}}</li>
+                    <li @click="$router.push(item.route); burgerMenu = false" v-for="(item, label) in list" :class="{'text-purple-450': $route.name == label, 'text-slate-550': $route.name != label}" class="hover:text-purple-450 cursor-pointer font-semibold">{{label}}</li>
                 </ul>
             </nav>
         </div>

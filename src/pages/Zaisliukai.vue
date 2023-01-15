@@ -5,7 +5,7 @@ import shopItems from '../assets/shop.json'
 </script>
 
 <template>
-    <div class="w-full min-h-fit px-32 pb-24 bg-purple-50">
+    <div class="w-full min-h-screen px-32 pb-24 bg-purple-50">
         <PageHeader title="Parduotuvė" subtitle="Išsirinkite jums patinkantį žaisliuką ir mes jį pristatysime kuo greičiau" />
         <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 auto-rows-auto place-items-center gap-16">
             <ShopPost v-for="item in shopItems" 

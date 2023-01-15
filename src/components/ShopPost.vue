@@ -27,7 +27,7 @@ const props = defineProps({
             <span class="block text-purple-450">{{ price }} €</span>
         </header>
         <div class="px-6">
-            <p class="break-words text-gray-500">{{ description }}</p>
+            <p class="break-words text-slate-550">{{ description }}</p>
         </div>
         <div class="w-full space-y-1 px-6">
             <span class="font-semibold">Dydis:</span>
