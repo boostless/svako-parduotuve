@@ -1,4 +1,6 @@
 <script setup>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
 const sizes = [
     'S', 'M', 'L', 'XL'
 ]
@@ -27,7 +29,7 @@ const props = defineProps({
             </ul>
         </div>
         <div class="w-full px-6">
-            <button class="text-white bg-purple-450 w-full rounded-lg py-2 font-semibold transition-colors ease-in hover:bg-slate-200 hover:text-purple-450">Įdėti į krepšelį</button>
+            <button class="text-white bg-purple-450 w-full rounded-lg py-2 font-semibold transition-colors ease-in hover:bg-slate-200 hover:text-purple-450 flex justify-center items-center space-x-2"><font-awesome-icon class="mt-0.5" icon="fa-solid fa-cart-shopping" />  <span>Įdėti į krepšelį</span></button>
         </div>
     </article>
 </template>
