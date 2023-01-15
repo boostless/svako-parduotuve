@@ -4,29 +4,34 @@ export default {
         return {
             list: {
                 'Naujienos': {
-                    route: '/'
+                    route: '/',
+                    icon: 'fa-solid fa-newspaper'
                 },
                 'Žaisliukai': {
                     route: '/zaisliukai',
+                    icon: 'fa-solid fa-cart-shopping'
                 },
                 'Apie mus': {
                     route: '/apie_mus',
+                    icon: 'fa-solid fa-info-circle'
                 },
                 'Kontaktai': {
                     route: '/kontaktai',
+                    icon: 'fa-solid fa-file-signature'
                 },
                 'Kainos': {
                     route: '/informacija/kainorastis',
+                    icon: 'fa-solid fa-tags'
                 }
             },
-            burgerMenu: false,
+            burgerMenu: true,
         }
     }
 }
 </script>
 
 <template>
-    <header class="flex flex-col md:flex-row justify-center sm:justify-start py-6 px-32 md:space-x-6 w-full items-center bg-white shadow-md sticky">
+    <header class="flex flex-row sm:flex-col md:flex-row justify-between sm:justify-start py-6 px-32 md:space-x-6 w-full items-center bg-white shadow-md sticky">
         <div>
             <h1 @click="$router.push('/')" class="text-xl font-semibold hover:text-purple-450 cursor-pointer">Pliušinukai</h1>
         </div>    
@@ -35,13 +40,14 @@ export default {
                 <li @click="$router.push(item.route)" v-for="(item, label) in list" :class="{'text-purple-450': $route.name == label, 'text-slate-550': $route.name != label}" class="hover:text-purple-450 cursor-pointer font-semibold">{{label}}</li>
             </ul>
         </nav>
-        <button @click="burgerMenu = true" class="grid sm:hidden">Menu</button>
+        <button @click="burgerMenu = true" class="grid sm:hidden"><font-awesome-icon icon="fa-solid fa-list" class="text-xl"/></button>
     </header>
     <Transition name="slide-down">
         <div v-if="burgerMenu" class="absolute z-10 w-2/3 h-full bg-gray-50 top-0 right-0 rounded-l-2xl flex flex-col items-center justify-center shadow-xl">
+            <div @click="burgerMenu=false" class="absolute top-0 right-0 m-10"><font-awesome-icon icon="fa-solid fa-circle-xmark" class="text-2xl text-slate-550"/></div>
             <nav>
                 <ul class="flex flex-col text-xl space-y-2">
-                    <li @click="$router.push(item.route); burgerMenu = false" v-for="(item, label) in list" :class="{'text-purple-450': $route.name == label, 'text-slate-550': $route.name != label}" class="hover:text-purple-450 cursor-pointer font-semibold">{{label}}</li>
+                    <li @click="$router.push(item.route); burgerMenu = false" v-for="(item, label) in list" :class="{'text-purple-450': $route.name == label, 'text-slate-550': $route.name != label}" class="hover:text-purple-450 cursor-pointer font-semibold"><font-awesome-icon :icon="item.icon" class="mr-2" /> {{label}}</li>
                 </ul>
             </nav>
         </div>
