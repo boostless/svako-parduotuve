@@ -1,9 +1,12 @@
 <script setup>
+import { ref } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 const sizes = [
     'S', 'M', 'L', 'XL'
 ]
+
+const show = ref(true)
 
 const props = defineProps({
     title: { required: true },
@@ -17,7 +20,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <article class="flex flex-col items-center bg-gray-50 w-[280px] pb-6 space-y-3 shadow">
+    <article v-if="show" class="flex flex-col items-center bg-gray-50 w-[280px] pb-6 space-y-3 shadow">
         <div class="w-[280px] h-[186.66px] bg-gray-300 relative flex items-center justify-center text-white">
             <font-awesome-icon icon="fa-solid fa-image" class="text-8xl animate-pulse" />
             <img class="w-full h-auto absolute top-0 left-0" :src="`/images/${imagePath}`" :alt="imageAlt" />
@@ -36,7 +39,7 @@ const props = defineProps({
             </ul>
         </div>
         <div class="w-full px-6">
-            <button class="text-white bg-purple-450 w-full rounded-lg py-2 font-semibold hover:bg-sizebg hover:text-purple-450 flex justify-center items-center space-x-2"><font-awesome-icon class="mt-0.5" icon="fa-solid fa-cart-shopping" />  <span>Įdėti į krepšelį</span></button>
+            <button @click="show = false" class="text-white bg-purple-450 w-full rounded-lg py-2 font-semibold hover:bg-sizebg hover:text-purple-450 flex justify-center items-center space-x-2"><font-awesome-icon class="mt-0.5" icon="fa-solid fa-cart-shopping" />  <span>Įdėti į krepšelį</span></button>
         </div>
     </article>
 </template>

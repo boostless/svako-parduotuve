@@ -3,7 +3,7 @@ import PageHeader from '../components/PageHeader.vue';
 </script>
 
 <template>
-    <div class="w-full min-h-fit px-32">
+    <div class="w-full min-h-fit px-32 pb-24">
         <PageHeader route="false" title="Naujienos" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
         <main>
             <article class="flex flex-auto space-x-10">
