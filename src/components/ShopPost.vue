@@ -7,20 +7,24 @@ const sizes = [
 
 const props = defineProps({
     title: { required: true },
+    description: { required:true },
     price: { required: true },
-    size: { required: true }
+    size: { required: true },
+    uid: { required: true },
+    imagePath: { required: true },
+    imageAlt: { required: true }
 })
 </script>
 
 <template>
     <article class="flex flex-col items-center bg-gray-50 w-[280px] pb-6 space-y-3 shadow">
-        <img class="w-full h-auto" src="https://cdn.discordapp.com/attachments/1018802602542120962/1062670762537926776/IMG_0294-min.JPG" />
+        <img class="w-full h-auto" :src="`src/assets/images/${imagePath}`" :alt="imageAlt" />
         <header class="w-full space-y-1 px-6">
             <h2 class="text-lg font-semibold">{{ title }}</h2>
             <span class="block text-purple-450">{{ price }} €</span>
         </header>
         <div class="px-6">
-            <p class="break-words text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <p class="break-words text-gray-500">{{ description }}</p>
         </div>
         <div class="w-full space-y-1 px-6">
             <span class="font-semibold">Dydis:</span>
