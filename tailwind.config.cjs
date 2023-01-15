@@ -10,7 +10,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        'sizebg': '#F9F5FF'
+        'sizebg': '#F9F5FF',
+        'purple': {
+          10: '#D6BBFB',
+          450: '#7F56D9',
+          950: '#53389E'
+        }
       }
     },
   },
