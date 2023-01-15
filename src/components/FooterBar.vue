@@ -1,11 +1,11 @@
 <template>
     <footer class="flex flex-col bg-purple-950 text-white px-32 mt-auto">
-        <div class="w-full hidden md:flex items-center justify-between py-16">
+        <div class="w-full flex flex-col space-y-4 md:space-y-0 md:flex-row items-center justify-between py-16">
             <header class="space-y-2">
                 <h3 class="text-xl font-medium">Užsiprenumeruoktie mūsų naujienlaiškį</h3>
                 <p class="text-gray-200 font-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
             </header>
-            <div class="space-x-3 flex">
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-3 sm:space-y-0">
                 <div class="bg-white p-2 border rounded-lg flex items-center space-x-2">
                     <font-awesome-icon style="color: #667085" class="text-lg" icon="fa-regular fa-envelope" />
                     <input type="email" class=" text-black text-sm focus:outline-none" placeholder="Įveskite savo el. paštą..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="vardenis@pastas.lt"/>
