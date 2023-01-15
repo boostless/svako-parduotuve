@@ -5,8 +5,11 @@
                 <h3 class="text-xl font-medium">Užsiprenumeruoktie mūsų naujienlaiškį</h3>
                 <p class="text-gray-200 font-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
             </header>
-            <div class="space-x-3">
-                <input type="email" class="border p-2 rounded-lg text-black text-sm" placeholder="Įveskite savo el. paštą..." />
+            <div class="space-x-3 flex">
+                <div class="bg-white p-2 border rounded-lg flex items-center space-x-2">
+                    <font-awesome-icon style="color: #667085" class="text-lg" icon="fa-regular fa-envelope" />
+                    <input type="email" class=" text-black text-sm focus:outline-none" placeholder="Įveskite savo el. paštą..." />
+                </div>
                 <button class="py-2 px-4 bg-purple-450 rounded-lg font-semibold hover:bg-white hover:text-purple-450">Prenumeruoti</button>
             </div>
         </div>
