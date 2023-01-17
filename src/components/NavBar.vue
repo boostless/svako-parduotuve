@@ -36,7 +36,7 @@ export default {
             <h1 @click="$router.push('/')" class="text-xl font-semibold hover:text-purple-450 cursor-pointer">Pliušinukai</h1>
         </div>    
         <nav class="hidden sm:grid">
-            <ul class="flex flex-row w-full space-x-3 md:space-x-6">
+            <ul class="flex flex-row w-full items-stretch space-x-3 md:space-x-6">
                 <li @click="$router.push(item.route)" v-for="(item, label) in list" :class="{'text-purple-450': $route.name == label, 'text-slate-550': $route.name != label}" class="hover:text-purple-450 cursor-pointer font-semibold">{{label}}</li>
             </ul>
         </nav>

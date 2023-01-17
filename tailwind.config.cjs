@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         'sizebg': '#F9F5FF',
         'purple': {
+          5: '#F4EBFF',
           10: '#D6BBFB',
           450: '#7F56D9',
           950: '#53389E'
