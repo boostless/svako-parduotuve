@@ -3,9 +3,9 @@ import PageHeader from '../../components/PageHeader.vue';
 </script>
 
 <template>
-    <div class="w-full min-h-screen px-32 pb-6 bg-purple-50">
+    <div class="w-full min-h-screen px-8 sm:px-16 md:px-32 pb-6 bg-purple-50">
         <PageHeader title="Produktų įkainiai" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
-        <main class="w-full">
+        <main class="w-full overflow-x-auto">
             <table class="border border-collapse table-auto w-full bg-white shadow-md">
                 <thead>
                     <tr class="text-sm text-slate-550 border">
