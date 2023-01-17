@@ -1,8 +1,8 @@
 {
     "fox": {
-        "uid": "lapute_m_01",
+        "uid": "lapute_s_01",
         "label": "Laputė",
-        "size": "M",
+        "size": "S",
         "price": "25",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
         "image": {
@@ -33,9 +33,9 @@
         }
     },
     "cow": {
-        "uid": "karvute_l_04",
+        "uid": "karvute_s_04",
         "label": "Kartuvė",
-        "size": "L",
+        "size": "S",
         "price": "40",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
         "image": {

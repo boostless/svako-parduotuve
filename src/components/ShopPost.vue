@@ -35,7 +35,7 @@ const props = defineProps({
         <div class="w-full space-y-1 px-6">
             <span class="font-semibold">Dydis:</span>
             <ul class="flex space-x-2">
-                <li :class="{'bg-purple-450 text-white': size == item, 'bg-sizebg  text-purple-450': size != item}" class="text-sm w-8 h-8 flex items-center justify-center rounded font-semibold shadow-sm" v-for="item in sizes">{{ item }}</li>
+                <li @click="size = item" :class="{'bg-purple-450 text-white': size == item, 'bg-sizebg  text-purple-450': size != item}" class="text-sm w-8 h-8 flex items-center justify-center rounded font-semibold shadow-sm hover:text-white hover:bg-purple-450 cursor-pointer" v-for="item in sizes">{{ item }}</li>
             </ul>
         </div>
         <div class="w-full px-6">
