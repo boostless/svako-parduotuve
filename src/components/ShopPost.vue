@@ -1,23 +1,32 @@
-<script setup>
-import { ref } from 'vue';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+<script>
+import { useCartStore } from '../stores/shoppingCartStore'
 
-const sizes = [
-    'S', 'M', 'L', 'XL'
-]
+export default {
+    props: ['title', 'description', 'price', 'size', 'uid', 'imagePath', 'imageAlt'],
+    data() {
+        return {
+            sizes: ['S', 'M', 'L', 'XL'],
+            show: true,
+        }
+    },
+    setup() {
+        const store = useCartStore()
 
-const show = ref(true)
+        const { addItem } = store
 
-const props = defineProps({
-    title: { required: true },
-    description: { required:true },
-    price: { required: true },
-    size: { required: true },
-    uid: { required: true },
-    imagePath: { required: true },
-    imageAlt: { required: true }
-})
+        return {
+            addItem
+        }
+    },
+    methods: {
+        addItemToStore() {
+            const props = this.$props
+            this.addItem(props)
+        }
+    }
+}
 </script>
+
 
 <template>
     <article v-if="show" class="flex flex-col items-center bg-gray-50 w-[280px] pb-6 space-y-3 shadow">
@@ -39,7 +48,7 @@ const props = defineProps({
             </ul>
         </div>
         <div class="w-full px-6">
-            <button @click="show = false" class="text-white bg-purple-450 w-full rounded-lg py-2 font-semibold hover:bg-sizebg hover:text-purple-450 flex justify-center items-center space-x-2"><font-awesome-icon class="mt-0.5" icon="fa-solid fa-cart-shopping" />  <span>Įdėti į krepšelį</span></button>
+            <button @click="addItemToStore" class="text-white bg-purple-450 w-full rounded-lg py-2 font-semibold hover:bg-sizebg hover:text-purple-450 flex justify-center items-center space-x-2"><font-awesome-icon class="mt-0.5" icon="fa-solid fa-cart-shopping" />  <span>Įdėti į krepšelį</span></button>
         </div>
     </article>
 </template>

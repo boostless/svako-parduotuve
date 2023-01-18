@@ -22,6 +22,10 @@ export default {
                 'Kainos': {
                     route: '/informacija/kainorastis',
                     icon: 'fa-solid fa-tags'
+                },
+                'Krepselis': {
+                    route: '/krepselis',
+                    icon: 'fa-solid fa-tags'
                 }
             },
             burgerMenu: false,

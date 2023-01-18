@@ -4,6 +4,7 @@ import Apie_mus from '../pages/Apie_mus.vue'
 import Kontaktai from '../pages/Kontaktai.vue'
 import Zaisliukai from '../pages/Zaisliukai.vue'
 import Kainorastis from '../pages/informacija/Kainorastis.vue'
+import Krepselis from '../pages/Krepselis.vue'
 
 const routes = [
     {
@@ -25,6 +26,11 @@ const routes = [
         path: '/kontaktai',
         name: 'Kontaktai',
         component: Kontaktai
+    },
+    {
+        path: '/krepselis',
+        name: 'Krepselis',
+        component: Krepselis
     },
     {
         path: '/informacija',
