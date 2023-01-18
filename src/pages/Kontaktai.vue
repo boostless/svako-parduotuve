@@ -1,8 +1,8 @@
-<script setup>
+<!--<script setup>
 import PageHeader from '../components/PageHeader.vue';
-</script>
+</script>-->
 
-<!--<script>
+<script>
 import PageHeader from '../components/PageHeader.vue';
 
 export default {
@@ -14,14 +14,27 @@ export default {
 
         }
     },
+    methods: {
+        handleSubmit(event) {
+            const form = event.target
+            const formData = new FormData(form)
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formData).toString(),
+            })
+            .then(() => console.log("Form successfully submitted"))
+            .catch((error) => alert(error));
+        }
+    }
 }
-</script>-->
+</script>
 
 <template>
     <div class="w-full min-h-screen px-8 sm:px-16 md:px-32 pb-24 bg-purple-50">
         <PageHeader title="Susisiekite su mumis" subtitle="Norėtume išgirsti jūsų nuomonę. Užpildykite šią formą." />
         <main class="w-full flex items-center justify-center">
-            <form class="w-full flex flex-col md:w-4/5 lg:w-2/5 h-fit space-y-8" name="contact" method="POST" data-netlify="true">
+            <form class="w-full flex flex-col md:w-4/5 lg:w-2/5 h-fit space-y-8" name="contact" method="POST" data-netlify="true" @submit.prevent="handleSubmit">
                 <input type="hidden" name="form-name" value="contact" />
                 <div class="w-full flex flex-col sm:flex-row justify-between space-y-8 sm:space-y-0 sm:space-x-8">
                     <div class="grid space-y-2 w-full">
