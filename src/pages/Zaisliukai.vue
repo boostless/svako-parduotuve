@@ -7,7 +7,7 @@ import shopItems from '../assets/shop.json'
 <template>
     <div class="w-full min-h-screen px-8 sm:px-16 md:px-32 pb-24 bg-purple-50">
         <PageHeader title="Parduotuvė" subtitle="Išsirinkite jums patinkantį žaisliuką ir mes jį pristatysime kuo greičiau" />
-        <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 auto-rows-auto place-items-center gap-16">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 auto-rows-auto place-items-center gap-16">
             <ShopPost v-for="item in shopItems" 
                 :title="item.label" 
                 :price="item.price" 
