@@ -31,7 +31,7 @@ import PageHeader from '../components/PageHeader.vue';
                 </div>
                 <div class="w-full grid space-y-2">
                     <label class="font-medium text-sm" for="message">Žinutė <span class="text-red-500">*</span></label>
-                    <textarea name="message" required="true" class="border p-3 rounded-lg resize-none h-32" placeholder="Įrašykite žinutę..."></textarea>
+                    <textarea name="message" required="true" class="border p-3 rounded-lg resize-none h-32 shadow" placeholder="Įrašykite žinutę..."></textarea>
                 </div>
                 <div class="w-full flex items-center space-x-2">
                     <input name="privacy" id="privacy" required="true" class="h-5 w-5 rounded-lg" type="checkbox">
