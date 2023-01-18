@@ -22,7 +22,7 @@ import PageHeader from '../components/PageHeader.vue';
                     <label class="font-medium text-sm" for="email">El. paštas <span class="text-red-500">*</span></label>
                     <div class="bg-white px-4 py-3 border rounded-lg flex items-center space-x-2 shadow">
                         <font-awesome-icon style="color: #667085" class="text-lg" icon="fa-regular fa-envelope" />
-                        <input name="email" type="email" class=" text-black outline-none" placeholder="El. paštas" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="vardenis@pastas.lt"/>
+                        <input name="email" type="email" required="true" class=" text-black outline-none" placeholder="El. paštas" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="vardenis@pastas.lt"/>
                     </div>
                 </div>
                 <div class="w-full grid space-y-2">
