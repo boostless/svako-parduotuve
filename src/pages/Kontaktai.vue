@@ -1,49 +1,12 @@
-<!--<script setup>
+<script setup>
 import PageHeader from '../components/PageHeader.vue';
-</script>-->
-
-<script>
-import PageHeader from '../components/PageHeader.vue';
-
-export default {
-    components: {
-        PageHeader
-    },
-    data() {
-        return {
-
-        }
-    },
-    methods: {
-        encode(data){
-            return Object.keys(data)
-                .map(
-                (key) =>
-                    encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-                )
-                .join("&");
-        },
-        handleSubmit(event) {
-            fetch("/", {
-                method: "POST",
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: this.encode({
-                "form-name": event.target.getAttribute("name"),
-                ...name,
-                }),
-            })
-            .then(() => console.log('All good'))
-            .catch((error) => alert(error));
-        }
-    }
-}
 </script>
 
 <template>
     <div class="w-full min-h-screen px-8 sm:px-16 md:px-32 pb-24 bg-purple-50">
         <PageHeader title="Susisiekite su mumis" subtitle="Norėtume išgirsti jūsų nuomonę. Užpildykite šią formą." />
         <main class="w-full flex items-center justify-center">
-            <form class="w-full flex flex-col md:w-4/5 lg:w-2/5 h-fit space-y-8" name="contact" method="POST" data-netlify="true" @submit.prevent="handleSubmit">
+            <form class="w-full flex flex-col md:w-4/5 lg:w-2/5 h-fit space-y-8" name="contact" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <div class="w-full flex flex-col sm:flex-row justify-between space-y-8 sm:space-y-0 sm:space-x-8">
                     <div class="grid space-y-2 w-full">
