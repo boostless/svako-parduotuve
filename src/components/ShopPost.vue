@@ -23,7 +23,7 @@ const props = defineProps({
     <article v-if="show" class="flex flex-col items-center bg-gray-50 w-[280px] pb-6 space-y-3 shadow">
         <div class="w-[280px] h-[186.66px] bg-gray-300 relative flex items-center justify-center text-white">
             <font-awesome-icon icon="fa-solid fa-image" class="text-8xl animate-pulse" />
-            <img class="w-full h-auto absolute top-0 left-0" :src="`/images/${imagePath}`" :alt="imageAlt" />
+            <a class="cursor-pointer" :href="`/images/${imagePath}`"><img class="w-full h-auto absolute top-0 left-0" :src="`/images/${imagePath}`" :alt="imageAlt" /></a>
         </div>
         <header class="w-full space-y-1 px-6">
             <h2 class="text-lg font-semibold">{{ title }}</h2>
