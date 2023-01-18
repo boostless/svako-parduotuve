@@ -1,5 +1,5 @@
 {
-    "fox": {
+    "1": {
         "uid": "lapute_s_01",
         "label": "Laputė",
         "size": "S",
@@ -10,7 +10,7 @@
             "alt": "Nertas lapės žaisliukas"
         }
     },
-    "penguin_blue": {
+    "2": {
         "uid": "pingvinas_melynas_s_02",
         "label": "Pingvinukas",
         "size": "S",
@@ -21,7 +21,7 @@
             "alt": "Nertas pingvino žaisliukas mėlynas"
         }
     },
-    "penguin_purple": {
+    "3": {
         "uid": "pingvinas_violetine_s_03",
         "label": "Pingvinukas",
         "size": "S",
@@ -32,7 +32,139 @@
             "alt": "Nertas pingvino žaisliukas violetinis"
         }
     },
-    "cow": {
+    "4": {
+        "uid": "karvute_s_04",
+        "label": "Kartuvė",
+        "size": "S",
+        "price": "40",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "cow.png",
+            "alt": "Nertas karvės žaisliukas violetinis"
+        }
+    },
+    "5": {
+        "uid": "lapute_s_01",
+        "label": "Laputė",
+        "size": "S",
+        "price": "25",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "fox.png",
+            "alt": "Nertas lapės žaisliukas"
+        }
+    },
+    "6": {
+        "uid": "pingvinas_melynas_s_02",
+        "label": "Pingvinukas",
+        "size": "S",
+        "price": "15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "penguin_blue.png",
+            "alt": "Nertas pingvino žaisliukas mėlynas"
+        }
+    },
+    "7": {
+        "uid": "pingvinas_violetine_s_03",
+        "label": "Pingvinukas",
+        "size": "S",
+        "price": "15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "penguin_purple.png",
+            "alt": "Nertas pingvino žaisliukas violetinis"
+        }
+    },
+    "8": {
+        "uid": "karvute_s_04",
+        "label": "Kartuvė",
+        "size": "S",
+        "price": "40",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "cow.png",
+            "alt": "Nertas karvės žaisliukas violetinis"
+        }
+    },
+    "9": {
+        "uid": "lapute_s_01",
+        "label": "Laputė",
+        "size": "S",
+        "price": "25",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "fox.png",
+            "alt": "Nertas lapės žaisliukas"
+        }
+    },
+    "10": {
+        "uid": "pingvinas_melynas_s_02",
+        "label": "Pingvinukas",
+        "size": "S",
+        "price": "15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "penguin_blue.png",
+            "alt": "Nertas pingvino žaisliukas mėlynas"
+        }
+    },
+    "11": {
+        "uid": "pingvinas_violetine_s_03",
+        "label": "Pingvinukas",
+        "size": "S",
+        "price": "15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "penguin_purple.png",
+            "alt": "Nertas pingvino žaisliukas violetinis"
+        }
+    },
+    "12": {
+        "uid": "karvute_s_04",
+        "label": "Kartuvė",
+        "size": "S",
+        "price": "40",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "cow.png",
+            "alt": "Nertas karvės žaisliukas violetinis"
+        }
+    },
+    "13": {
+        "uid": "lapute_s_01",
+        "label": "Laputė",
+        "size": "S",
+        "price": "25",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "fox.png",
+            "alt": "Nertas lapės žaisliukas"
+        }
+    },
+    "14": {
+        "uid": "pingvinas_melynas_s_02",
+        "label": "Pingvinukas",
+        "size": "S",
+        "price": "15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "penguin_blue.png",
+            "alt": "Nertas pingvino žaisliukas mėlynas"
+        }
+    },
+    "15": {
+        "uid": "pingvinas_violetine_s_03",
+        "label": "Pingvinukas",
+        "size": "S",
+        "price": "15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "image": {
+            "path": "penguin_purple.png",
+            "alt": "Nertas pingvino žaisliukas violetinis"
+        }
+    },
+    "16": {
         "uid": "karvute_s_04",
         "label": "Kartuvė",
         "size": "S",
