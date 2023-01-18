@@ -15,15 +15,24 @@ export default {
         }
     },
     methods: {
+        encode(data){
+            return Object.keys(data)
+                .map(
+                (key) =>
+                    encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+                )
+                .join("&");
+        },
         handleSubmit(event) {
-            const form = event.target
-            const formData = new FormData(form)
             fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: new URLSearchParams(formData).toString(),
+                body: this.encode({
+                "form-name": event.target.getAttribute("name"),
+                ...name,
+                }),
             })
-            .then(() => console.log("Form successfully submitted"))
+            .then(() => console.log('All good'))
             .catch((error) => alert(error));
         }
     }
