@@ -11,6 +11,15 @@ export default {
             items: []
         }
     },
+    methods: {
+        getCartItems() {
+            if(localStorage.getItem('shoppingCart')) {
+                return localStorage.getItem('shoppingCart')
+            }else {
+                return this.items
+            }
+        }
+    },
     mounted() {
         this.items = this.store.getItems
     },  

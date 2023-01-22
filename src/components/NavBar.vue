@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-    <header class="flex flex-row sm:flex-col md:flex-row justify-between sm:justify-start py-6 px-8 sm:px-16 md:px-32 md:space-x-6 w-full items-center bg-white shadow-md sticky">
+    <header class="flex flex-row sm:flex-col md:flex-row justify-between sm:justify-start py-6 px-8 sm:px-16 md:px-32 md:space-x-6 w-full items-center bg-white shadow-md sticky top-0 z-50">
         <div>
             <h1 @click="$router.push('/')" class="text-xl font-semibold hover:text-purple-450 cursor-pointer">Pliušinukai</h1>
         </div>    

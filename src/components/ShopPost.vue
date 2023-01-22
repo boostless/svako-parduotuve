@@ -6,7 +6,7 @@ export default {
     data() {
         return {
             sizes: ['S', 'M', 'L', 'XL'],
-            show: true,
+            show: true
         }
     },
     setup() {
