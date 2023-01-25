@@ -17,10 +17,11 @@ import {
     faArrowTrendUp, 
     faArrowDown, 
     faFilter,
-    faCircleCheck 
+    faCircleCheck, 
 } from '@fortawesome/free-solid-svg-icons'
 // End icons
 import { faEnvelope, faHeart } from '@fortawesome/free-regular-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import './style.css'
@@ -41,7 +42,8 @@ library.add(
     faArrowTrendUp, 
     faArrowDown, 
     faFilter,
-    faCircleCheck
+    faCircleCheck,
+    faInstagram
 )
 
 const pinia = createPinia()

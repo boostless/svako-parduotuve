@@ -35,6 +35,7 @@ export default {
         <div class="w-full flex flex-col space-y-2 sm:space-y-0 sm:flex-row items-center justify-center sm:justify-between py-12">
             <span class="text-xl font-semibold">Pliušinukai</span>
             <span class="text-sm text-purple-10 text-center">© 2023 Pliušinukai. Visos teisės saugomos.</span>
+            <a href="https://www.instagram.com/vaivos.pliusinukai/?hl=af"><span class="text-3xl"><font-awesome-icon icon="fa-brands fa-instagram" /></span></a>
         </div>
     </footer>
 </template>
