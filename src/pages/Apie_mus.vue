@@ -25,8 +25,10 @@ import PageHeader from '../components/PageHeader.vue';
                 </article>
             </div>
         </section>
-        <section class="flex items-centert justify-center mt-20">
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/RcT7Bqe4yIM" title="Crochet | No Copyright Crochet Footage | Royalty Free Stock Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <section class="flex items-center justify-center mt-20">
+            <div class="md:w-[854px] md:h-[480px] lg:w-[1280px] lg:h-[720px]">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/RcT7Bqe4yIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            </div>
         </section>  
     </div>
 </template>
