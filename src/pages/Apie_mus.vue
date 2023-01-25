@@ -24,6 +24,9 @@ import PageHeader from '../components/PageHeader.vue';
                     <span class="text-center text-slate-550 text-sm sm:text-base">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
                 </article>
             </div>
+        </section>
+        <section class="flex items-centert justify-center mt-20">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/RcT7Bqe4yIM" title="Crochet | No Copyright Crochet Footage | Royalty Free Stock Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </section>  
     </div>
 </template>
