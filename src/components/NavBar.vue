@@ -23,7 +23,7 @@ export default {
                     route: '/informacija/kainorastis',
                     icon: 'fa-solid fa-tags'
                 },
-                'Krepselis': {
+                'Krepšelis': {
                     route: '/krepselis',
                     icon: 'fa-solid fa-shopping-cart'
                 }
