@@ -25,7 +25,7 @@ export default {
                 },
                 'Krepselis': {
                     route: '/krepselis',
-                    icon: 'fa-solid fa-tags'
+                    icon: 'fa-solid fa-shopping-cart'
                 }
             },
             burgerMenu: false,
@@ -47,7 +47,7 @@ export default {
         <button @click="burgerMenu=true" class="grid sm:hidden"><font-awesome-icon icon="fa-solid fa-list" class="text-xl"/></button>
     </header>
     <Transition name="slide-down">
-        <div v-if="burgerMenu" class="absolute z-10 w-2/3 h-full bg-gray-50 top-0 right-0 rounded-l-2xl flex flex-col items-center justify-center shadow-xl">
+        <div v-if="burgerMenu" class="absolute z-[100] w-2/3 h-full bg-gray-50 top-0 right-0 rounded-l-2xl flex flex-col items-center justify-center shadow-xl">
             <div @click="burgerMenu=false" class="absolute top-0 right-0 m-10"><font-awesome-icon icon="fa-solid fa-circle-xmark" class="text-2xl text-slate-550"/></div>
             <nav>
                 <ul class="flex flex-col text-xl space-y-2">
