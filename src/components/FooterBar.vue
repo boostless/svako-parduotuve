@@ -21,7 +21,7 @@ export default {
         <div class="w-full flex flex-col space-y-4 md:space-y-0 md:flex-row items-center justify-between py-16">
             <header class="space-y-2">
                 <h3 class="text-xl font-medium">Užsiprenumeruoktie mūsų naujienlaiškį</h3>
-                <p class="text-gray-200 font-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <p class="text-gray-200 font-normal">Gaukite naujienas, bei įvairias nuolaidas.</p>
             </header>
             <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-3 sm:space-y-0">
                 <div class="bg-white p-2 border rounded-lg flex items-center space-x-2">

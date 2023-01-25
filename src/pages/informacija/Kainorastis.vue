@@ -4,7 +4,7 @@ import PageHeader from '../../components/PageHeader.vue';
 
 <template>
     <div class="w-full min-h-screen px-8 sm:px-16 md:px-32 pb-6 bg-purple-50">
-        <PageHeader title="Produktų įkainiai" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+        <PageHeader title="Produktų įkainiai" subtitle="Sužinokitė apie žaisliukų įkainius pagal jų dydžius." />
         <main class="w-full overflow-x-auto">
             <table class="border border-collapse table-auto w-full bg-white shadow-md">
                 <thead>
