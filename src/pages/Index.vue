@@ -59,7 +59,7 @@ export default {
                         <img class="w-full h-auto xl:w-auto xl:h-full rounded-lg absolute top-0 left-0" :src="`/images/${items[currentPic.toString()].image.path}`" :alt="items[currentPic.toString()].image.alt">
                     </div>
                     <div class="space-y-2 xl:space-y-0 flex flex-col items-start justify-between xl:h-full">
-                        <span class="space-y-0 xl:space-y-2">
+                        <span class="space-y-2 xl:space-y-2">
                             <h2 class="font-semibold text-3xl">{{ items[currentPic.toString()].label }}</h2>
                             <p class="text-slate-550 break-words">{{ items[currentPic.toString()].description }}</p>
                             <p class="text-purple-450 text-xl font-semibold">{{ items[currentPic.toString()].price }} €</p>

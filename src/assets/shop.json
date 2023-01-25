@@ -4,7 +4,7 @@
         "label": "Laputė",
         "size": "S",
         "price": "25",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "description": "Nuostabiai švelnus laputės žaisliukas.",
         "image": {
             "path": "fox.png",
             "alt": "Nertas lapės žaisliukas"
@@ -15,7 +15,7 @@
         "label": "Pingvinukas",
         "size": "S",
         "price": "15",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "description": "Šis pingvinukas pagražins jūsų kambary.",
         "image": {
             "path": "penguin_blue.png",
             "alt": "Nertas pingvino žaisliukas mėlynas"
@@ -26,7 +26,7 @@
         "label": "Pingvinukas",
         "size": "S",
         "price": "15",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "description": "Šis pingvinukas pagražins jūsų kambary.",
         "image": {
             "path": "penguin_purple.png",
             "alt": "Nertas pingvino žaisliukas violetinis"
@@ -37,7 +37,7 @@
         "label": "Karvutė",
         "size": "S",
         "price": "40",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "description": "Karvutė tobulai sukurta miegojimui apsikabinus.",
         "image": {
             "path": "cow.png",
             "alt": "Nertas karvės žaisliukas violetinis"

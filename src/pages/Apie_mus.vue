@@ -10,17 +10,17 @@ import PageHeader from '../components/PageHeader.vue';
             <div class="w-full flex flex-col sm:flex-row justify-evenly space-y-10 sm:space-y-0">
                 <article class="flex flex-col items-center space-y-2 w-full sm:w-[384px]">
                     <div class="h-12 w-12 bg-purple-5 rounded-full flex items-center justify-center text-purple-450 text-lg"><font-awesome-icon icon="fa-solid fa-users" /></div>
-                    <h3 class="font-medium text-center text-base sm:text-lg md:text-xl">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="font-medium text-center text-base sm:text-lg md:text-xl">Komanda</h3>
                     <span class="text-center text-slate-550 text-sm sm:text-base">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
                 </article>
                 <article class="flex flex-col items-center space-y-2 w-full sm:w-[384px]">
                     <div class="h-12 w-12 bg-purple-5 rounded-full flex items-center justify-center text-purple-450 text-2xl"><font-awesome-icon icon="fa-regular fa-heart" /></div>
-                    <h3 class="font-medium text-center text-base sm:text-lg md:text-xl">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="font-medium text-center text-base sm:text-lg md:text-xl">Kokybė</h3>
                     <span class="text-center text-slate-550 text-sm sm:text-base">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
                 </article>
                 <article class="flex flex-col items-center space-y-2 w-full sm:w-[384px]">
                     <div class="h-12 w-12 bg-purple-5 rounded-full flex items-center justify-center text-purple-450 text-lg"><font-awesome-icon icon="fa-solid fa-arrow-trend-up" /></div>
-                    <h3 class="font-medium text-center text-base sm:text-lg md:text-xl">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="font-medium text-center text-base sm:text-lg md:text-xl">Tikslas</h3>
                     <span class="text-center text-slate-550 text-sm sm:text-base">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
                 </article>
             </div>
