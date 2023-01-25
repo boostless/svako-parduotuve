@@ -50,7 +50,7 @@ export default {
 
 <template>
     <div class="w-full min-h-screen px-8 sm:px-16 md:px-32 pb-24 bg-purple-50">
-        <PageHeader route="false" title="Naujienos"/>
+        <PageHeader route="false" title="Naujienos" subtitle="Mūsų naujausi žaisliukai"/>
         <main class="flex justify-center w-full overflow-hidden">
             <Transition name="scale" mode="in-out">
                 <div v-if="show" class="flex flex-col items-center w-[280px] xl:flex-row xl:w-full xl:space-x-10">
