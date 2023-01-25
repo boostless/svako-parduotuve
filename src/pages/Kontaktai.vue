@@ -8,7 +8,7 @@ import PageHeader from '../components/PageHeader.vue';
         <main class="w-full flex items-center justify-center">
             <form class="w-full flex flex-col md:w-4/5 lg:w-2/3 xl:w-2/5 h-fit space-y-8" name="contact" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
-                <div class="w-full flex flex-col xl:flex-row justify-between space-y-8 xl:space-y-0 xl:space-x-8">
+                <div class="w-full flex flex-col 2xl:flex-row justify-between space-y-8 2xl:space-y-0 2xl:space-x-8">
                     <div class="grid space-y-2 w-full">
                         <label class="font-medium text-sm" for="name">Vardas <span class="text-red-500">*</span></label>
                         <input name="name" required="true" class="border rounded-lg px-4 py-3 outline-none shadow" id="name" type="name" placeholder="Vardenis"/>
