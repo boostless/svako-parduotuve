@@ -17,7 +17,7 @@ export default {
     methods: {
         scrollPictures() {
             this.show = false
-            if(this.items.length > this.items + 1) {
+            if(this.items.length > this.currentPic + 1) {
                 this.currentPic += 1
             }else{
                 this.currentPic = 0

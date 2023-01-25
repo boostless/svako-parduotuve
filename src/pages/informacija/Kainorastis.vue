@@ -19,40 +19,36 @@ import PageHeader from '../../components/PageHeader.vue';
                 <tbody>
                     <tr class="border">
                         <td class="grid px-6 py-3">
-                            <span class="font-medium">Pliušinis žaislas 1</span>
-                            <span class="text-slate-550">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+                            <span class="font-medium">Karvutė</span>
                         </td>
-                        <td class="text-center">10 €</td>
-                        <td class="text-center">20 €</td>
-                        <td class="text-center">30 €</td>
                         <td class="text-center">40 €</td>
+                        <td class="text-center">50 €</td>
+                        <td class="text-center">60 €</td>
+                        <td class="text-center">70 €</td>
                     </tr>
                     <tr class="border bg-slate-50">
                         <td class="grid px-6 py-3">
-                            <span class="font-medium">Pliušinis žaislas 1</span>
-                            <span class="text-slate-550">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+                            <span class="font-medium">Laputė</span>
                         </td>
-                        <td class="text-center">10 €</td>
-                        <td class="text-center">20 €</td>
+                        <td class="text-center">25 €</td>
                         <td class="text-center">30 €</td>
                         <td class="text-center">40 €</td>
+                        <td class="text-center">50 €</td>
                     </tr>
                     <tr class="border">
                         <td class="grid px-6 py-3">
-                            <span class="font-medium">Pliušinis žaislas 1</span>
-                            <span class="text-slate-550">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+                            <span class="font-medium">Pingvinukas mėlynas</span>
                         </td>
-                        <td class="text-center">10 €</td>
+                        <td class="text-center">15 €</td>
                         <td class="text-center">20 €</td>
                         <td class="text-center">30 €</td>
                         <td class="text-center">40 €</td>
                     </tr>
                     <tr class="border bg-slate-50">
                         <td class="grid px-6 py-3">
-                            <span class="font-medium">Pliušinis žaislas 1</span>
-                            <span class="text-slate-550">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+                            <span class="font-medium">Pingvinukas violetinis</span>
                         </td>
-                        <td class="text-center">10 €</td>
+                        <td class="text-center">15 €</td>
                         <td class="text-center">20 €</td>
                         <td class="text-center">30 €</td>
                         <td class="text-center">40 €</td>
