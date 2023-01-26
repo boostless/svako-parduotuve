@@ -11,11 +11,11 @@ import PageHeader from '../components/PageHeader.vue';
                 <div class="w-full flex flex-col 2xl:flex-row justify-between space-y-8 2xl:space-y-0 2xl:space-x-8">
                     <div class="grid space-y-2 w-full">
                         <label class="font-medium text-sm" for="name">Vardas <span class="text-red-500">*</span></label>
-                        <input pattern="[A-Za-z]" name="name" required="true" class="border rounded-lg px-4 py-3 outline-none shadow" id="name" type="name" placeholder="Vardenis"/>
+                        <input pattern="[A-Za-z]*" name="name" required="true" class="border rounded-lg px-4 py-3 outline-none shadow" id="name" type="name" placeholder="Vardenis"/>
                     </div>
                     <div class="grid space-y-2  w-full">
                         <label class="font-medium text-sm" for="surname">Pavardė <span class="text-red-500">*</span></label>
-                        <input pattern="[A-Za-z]" name="surname" required="true" class="border rounded-lg px-4 py-3 outline-none shadow" id="surname" type="surname" placeholder="Pavardenis"/>
+                        <input pattern="[A-Za-z]*" name="surname" required="true" class="border rounded-lg px-4 py-3 outline-none shadow" id="surname" type="surname" placeholder="Pavardenis"/>
                     </div>
                 </div>
                 <div class="w-full space-y-2">
